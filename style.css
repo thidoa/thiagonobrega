@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:wght@800&family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    height: 772px;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url(imagens/banner4.jpg) no-repeat top center;
+    background-size: cover !important;
+	    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+header .introduction {
+    margin-top: 140px;
+}
+
+header h1{
+    color: #fff;
+    font: 90px 'open sans', sans-serif;
+    font-size: 90px;
+    margin: 18px;
+    
+}
+
+header p {
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(187, 187, 187);
+    font-size: 18px;
+    margin: auto;
+    width: 50%;
+    
+}
+
+header hr {
+    width: 50%;
+    margin: 18px auto 24px auto;
+    border-color: #2F2D2E;
+    border-color: rgba(150, 150, 150, .1);
+}
+
+.menu {
+    margin-top: 8px;
+    display: block;
+}
+
+
+.menu ul li {
+    display: inline-block;
+    line-height: 18px;
+    margin-bottom: 12px;
+    padding: 8px 13px;
+}
+
+.menu ul li a {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    
+}
+
