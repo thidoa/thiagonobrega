@@ -47,6 +47,51 @@ header hr {
     border-color: rgba(150, 150, 150, .1);
 }
 
+#contato {
+    height: 50px;
+    width: auto;
+}
+
+#contato ul {
+    display: block;
+    align-items: center;
+    padding: 0;
+}
+
+#contato ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+#contato ul li a svg:hover {
+    color: #F06000;
+    width: 50px;
+    height: 50px;
+}
+
+#contato ul li a svg {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    transition: 0.6s;
+    align-items: center;
+}
+.icon_seta {
+    position: absolute;
+    bottom: 30px;
+    vertical-align: bottom;
+    width: 100%;
+}
+
+#seta {
+    color: #F06000;
+    width: auto;
+    height: 50px;
+}
+
+
+
+
 .menu {
     margin-top: 8px;
     display: block;
