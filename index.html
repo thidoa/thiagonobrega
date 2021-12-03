@@ -9,17 +9,24 @@
     <title>Thiago Nóbrega</title>
 </head>
 <body>
-    <header>
-        <nav class="menu" id='home'>
-            <ul>
+    <div id="home"></div>
+    <nav class="menu">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#">Quem sou eu</a></li>
+                <li><a href="#about">Quem sou eu</a></li>
                 <li><a href="#">Formações & esperiencias</a></li>
                 <li><a href="#">Projetos</a></li>
             </ul>
-        </nav>
-        <div class='introduction'>
-            <h1><b class='code_color'>&lt;/</b>Thiago Nóbrega<b class='code_color'>&gt;</b></h1>
+    </nav>
+    <header>
+        
+        <div class="container" id="introduction">
+            <h1 class="responsive-headline"><b class='code_color'>&lt;/</b>Thiago Nóbrega<b class='code_color'>&gt;</b></h1>
             <p>Sou desenvolvedor de sistemas em aprendizado, de uma cidadezinha no interior do RN. transformo cafeína em progamas. saiba mais sobre mim!</p>
         </div>
         <hr>
@@ -36,7 +43,7 @@
               
         </div>
         <div class="icon_seta">
-            <a href="#">
+            <a href="#about">
                 <svg id="seta" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                 </svg>
@@ -44,12 +51,11 @@
         </div>
        
     </header>
-
-    <!-- <div class="home">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quasi debitis, recusandae provident laborum aspernatur distinctio! Distinctio soluta possimus ducimus iste numquam esse, dolores sint enim architecto adipisci, error similique?</p>
-    </div> -->
-    <script>
-
-    </script>
+    <!-- <header id="about">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quasi debitis, recusandae provident laborum aspernatur distinctio! Distinctio soluta possimus ducimus iste numquam esse, dolores sint enim architecto adipisci, error similique?</p>
+        </div>
+    </header> -->
+    <script src="site.js"></script>
 </body>
 </html>
